@@ -1,0 +1,14 @@
+{
+  "name": "croct-nuxt-multitenant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview"
+  },
+  "dependencies": {
+    "@croct/plug-nuxt": "https://pkg.pr.new/@croct/plug-nuxt@5",
+    "nuxt": "^3.17.0"
+  }
+}
