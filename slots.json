@@ -1,0 +1,13 @@
+{
+  "home-hero": [
+    {
+      "version": 1,
+      "content": {
+        "en-us": {
+          "_component": "home-hero@1",
+          "heading": "Teste Nuxt"
+        }
+      }
+    }
+  ]
+}

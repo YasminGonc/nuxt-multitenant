@@ -5,10 +5,15 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "postinstall": "croct --no-interaction install"
   },
   "dependencies": {
-    "@croct/plug-nuxt": "https://pkg.pr.new/@croct/plug-nuxt@5",
+    "@croct/content": "^1.1.0",
+    "@croct/plug-nuxt": "^0.2.0",
     "nuxt": "^3.17.0"
+  },
+  "devDependencies": {
+    "croct": "^0.16.0"
   }
 }
